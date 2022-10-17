@@ -9,7 +9,9 @@ library(tidyverse)
 library(shiny)
 
 ## Load data ----
-load("~/Desktop/Projects/Functional Local Cluster/Aneu_app/50patients.RData")
+# change the path according to the position of the file "50patients.RData" in
+# your computer
+load("50patients.RData")
 mat = cleancurves50
 matplot(t(mat), type='l', col='grey60', xlab = "x", ylab = "y")
 
