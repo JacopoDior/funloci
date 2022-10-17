@@ -1,0 +1,15 @@
+Package: funloci
+Type: Package
+Title: funloci
+Version: 0.1.0
+Author: J. Di Iorio
+Maintainer: J. Di Iorio <jqd5830@psu.edu>
+Description: funloci package
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
