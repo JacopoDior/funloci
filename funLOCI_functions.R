@@ -1,6 +1,10 @@
 # funLOCI functions -
-library(funloci) # required to use the cpp H-score funtion in parallel
-
+# to install the funloci package (work in progress)
+# it presents the Rcpp HscoreC() function (which should be stored in a package to
+# be used in a parallel way with future_lapply)
+library(devtools)
+install_github("JacopoDior/funloci/funloci")
+library(funloci)
 ## Step 1 -----
 # create the structure of the lotting, i.e., a list with
 # positions: all the possible starting positions

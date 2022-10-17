@@ -8,6 +8,12 @@ library(funloci)
 library(tidyverse)
 library(shiny)
 
+
+# to install the funloci package (work in progress)
+library(devtools)
+install_github("JacopoDior/funloci/funloci")
+library(funloci)
+
 ## Load data ----
 # change the path according to the position of the file "50patients.RData" in
 # your computer
